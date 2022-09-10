@@ -1,0 +1,180 @@
+/*-------------------------*/
+body{
+    font-family:'Montserrat' ;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%  ;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: azure;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat-Black';
+
+}
+
+h3{
+    font-size: 2rem;
+}
+
+/*-----Heading Section-----*/
+.big-heading{
+    font-family: 'Montserrat-Black';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/*----- NavBar  ------*/
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+
+.nav-item{
+    padding: 18px;
+}
+
+.nav-link{
+    font-family: Montserrat-Light;
+    font-size: 1.2rem;
+}
+
+
+/*---- Download Button -----*/
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.title-image{
+    width: 50%;
+    transform: rotate(25deg);
+    right: 35%;
+    position: absolute;
+}
+
+/* Feature Section */
+#features{
+    padding: 7% 15% ;
+    background-color: #fff;
+    position: relative;
+    
+}
+
+.feature-box{
+    text-align: center;
+    padding: 3%;
+    
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 3%;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+/*-------- testimonials -------*/
+#testimonials{
+    background-color: #ef8172;
+    color: azure;
+    text-align: center;
+
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonials-text{
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 4%;
+    text-align: center;
+}
+
+.press-image{
+    width: 15%;
+    margin: 20px 20px 50px;
+
+}
+
+/*-----Pricing-----*/
+#pricing{
+    padding: 100px;
+    text-align: center;
+    
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+.pricing-cardBody{
+    padding-top: 17%;    
+}
+
+
+/*------CTA Sectoion----*/
+#cta{
+    background-color: #ff4c68;
+    color: azure;
+    text-align: center;
+    padding: 7% 15%;
+
+}
+
+.cta-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+    
+}
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.socila-icon{
+    margin: 20px 10px;
+}
+
+/*-------Media Query------*/
+@media (max-width: 1028px)
+{
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+
+}
